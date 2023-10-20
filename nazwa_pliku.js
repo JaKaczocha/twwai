@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var rectangle_1 = require("./rectangle");
+var p1 = new rectangle_1.point(0, 0);
+var p2 = new rectangle_1.point(0, 4);
+var p3 = new rectangle_1.point(6, 0);
+var p4 = new rectangle_1.point(6, 4);
+var rect = new rectangle_1.rectangle(p1, p2, p3, p4);
+console.log('Initial rectangle:');
+console.log(rect);
+rect.move(2, 3);
+console.log('Rectangle after moving:');
+console.log(rect);
+var area = rect.getArea();
+console.log('Area of the rectangle:', area);
