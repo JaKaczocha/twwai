@@ -1,1 +1,0 @@
-Aplikacja wydrukowała komunikat na podstawie mechanizmu nasłuchiwania eventEmittera.
